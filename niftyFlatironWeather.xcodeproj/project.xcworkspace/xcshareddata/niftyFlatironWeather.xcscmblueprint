@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A77A2E49511E53433AD0C7AEB250BE665201AED9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4633763755EF7CA468919750EC0244B35A1F498F" : 9223372036854775807,
+    "A77A2E49511E53433AD0C7AEB250BE665201AED9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6445DB4E-0F93-408E-99F3-3BBCF0C049DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4633763755EF7CA468919750EC0244B35A1F498F" : "..\/.Trash\/swift-LocationTrivia-DataStoreRelationships-lab-ios-0916%20copy",
+    "A77A2E49511E53433AD0C7AEB250BE665201AED9" : "swift-internet-breakout-ios-0916\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "niftyFlatironWeather",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "niftyFlatironWeather.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yayitserica\/swift-LocationTrivia-DataStoreRelationships-lab-ios-0916.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4633763755EF7CA468919750EC0244B35A1F498F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jthnyc\/swift-internet-breakout-ios-0916.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A77A2E49511E53433AD0C7AEB250BE665201AED9"
+    }
+  ]
+}

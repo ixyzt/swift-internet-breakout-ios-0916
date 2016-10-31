@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D6B7F01DC39E18006E7217 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6B7EF1DC39E18006E7217 /* APIClient.swift */; };
+		01D6B7F21DC39E22006E7217 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6B7F11DC39E22006E7217 /* Forecast.swift */; };
+		4594B12B1DC4FC89005092EF /* DailyTabBar_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594B12A1DC4FC89005092EF /* DailyTabBar_VC.swift */; };
+		4594B12D1DC4FCD3005092EF /* HourlyTab_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594B12C1DC4FCD3005092EF /* HourlyTab_VC.swift */; };
+		4594B13F1DC50397005092EF /* calendarIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594B13E1DC50397005092EF /* calendarIconSmall.png */; };
+		4594B1411DC503A0005092EF /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594B1401DC503A0005092EF /* watch.png */; };
+		4594B1481DC545DD005092EF /* CurrentTab_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594B1471DC545DD005092EF /* CurrentTab_VC.swift */; };
+		4594B14C1DC54752005092EF /* hourglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594B14B1DC54752005092EF /* hourglass.png */; };
+		4594B14E1DC5478B005092EF /* hourglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4594B14D1DC5478B005092EF /* hourglass.png */; };
+		45F4131D1DC7C59000C76862 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4131C1DC7C59000C76862 /* Secrets.swift */; };
+		45F819421DC3F16600BB4F98 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F819411DC3F16600BB4F98 /* DataStore.swift */; };
+		826B9B5C06D7C213413DD6E1 /* Pods_niftyFlatironWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC39AC037199EC96D70586C1 /* Pods_niftyFlatironWeather.framework */; };
 		8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0772741DC2FDEF0061A640 /* AppDelegate.swift */; };
 		8F0772771DC2FDEF0061A640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0772761DC2FDEF0061A640 /* ViewController.swift */; };
 		8F07727A1DC2FDEF0061A640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0772781DC2FDEF0061A640 /* Main.storyboard */; };
@@ -15,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D6B7EF1DC39E18006E7217 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		01D6B7F11DC39E22006E7217 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		4594B12A1DC4FC89005092EF /* DailyTabBar_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyTabBar_VC.swift; path = ../DailyTabBar_VC.swift; sourceTree = "<group>"; };
+		4594B12C1DC4FCD3005092EF /* HourlyTab_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyTab_VC.swift; sourceTree = "<group>"; };
+		4594B13E1DC50397005092EF /* calendarIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarIconSmall.png; sourceTree = "<group>"; };
+		4594B1401DC503A0005092EF /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
+		4594B1471DC545DD005092EF /* CurrentTab_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTab_VC.swift; sourceTree = "<group>"; };
+		4594B14B1DC54752005092EF /* hourglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass.png; sourceTree = "<group>"; };
+		4594B14D1DC5478B005092EF /* hourglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass.png; sourceTree = "<group>"; };
+		45F4131C1DC7C59000C76862 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		45F819411DC3F16600BB4F98 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		6DD32A37545EE268E354E597 /* Pods-niftyFlatironWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niftyFlatironWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-niftyFlatironWeather/Pods-niftyFlatironWeather.release.xcconfig"; sourceTree = "<group>"; };
 		8F0772711DC2FDEF0061A640 /* niftyFlatironWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niftyFlatironWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0772741DC2FDEF0061A640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F0772761DC2FDEF0061A640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,8 @@
 		8F07727B1DC2FDEF0061A640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F07727E1DC2FDEF0061A640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F0772801DC2FDEF0061A640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC39AC037199EC96D70586C1 /* Pods_niftyFlatironWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_niftyFlatironWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01ED948143ED4DAFD6C0BC2 /* Pods-niftyFlatironWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-niftyFlatironWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-niftyFlatironWeather/Pods-niftyFlatironWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826B9B5C06D7C213413DD6E1 /* Pods_niftyFlatironWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5EEA37941E385221124DF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C01ED948143ED4DAFD6C0BC2 /* Pods-niftyFlatironWeather.debug.xcconfig */,
+				6DD32A37545EE268E354E597 /* Pods-niftyFlatironWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4594B1421DC503D9005092EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01D6B7F11DC39E22006E7217 /* Forecast.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4594B1441DC50481005092EF /* Tab Bar VCs */ = {
+			isa = PBXGroup;
+			children = (
+				4594B12C1DC4FCD3005092EF /* HourlyTab_VC.swift */,
+				4594B12A1DC4FC89005092EF /* DailyTabBar_VC.swift */,
+				4594B1471DC545DD005092EF /* CurrentTab_VC.swift */,
+			);
+			name = "Tab Bar VCs";
+			sourceTree = "<group>";
+		};
 		8F0772681DC2FDEF0061A640 = {
 			isa = PBXGroup;
 			children = (
 				8F0772731DC2FDEF0061A640 /* niftyFlatironWeather */,
 				8F0772721DC2FDEF0061A640 /* Products */,
+				1C5EEA37941E385221124DF9 /* Pods */,
+				F92FE626A8D034653CDFE2D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +111,30 @@
 			isa = PBXGroup;
 			children = (
 				8F0772741DC2FDEF0061A640 /* AppDelegate.swift */,
+				01D6B7EF1DC39E18006E7217 /* APIClient.swift */,
+				45F4131C1DC7C59000C76862 /* Secrets.swift */,
+				4594B14D1DC5478B005092EF /* hourglass.png */,
+				4594B14B1DC54752005092EF /* hourglass.png */,
+				45F819411DC3F16600BB4F98 /* DataStore.swift */,
+				4594B1421DC503D9005092EF /* Model */,
+				4594B1441DC50481005092EF /* Tab Bar VCs */,
 				8F0772761DC2FDEF0061A640 /* ViewController.swift */,
 				8F0772781DC2FDEF0061A640 /* Main.storyboard */,
 				8F07727B1DC2FDEF0061A640 /* Assets.xcassets */,
+				4594B13E1DC50397005092EF /* calendarIconSmall.png */,
+				4594B1401DC503A0005092EF /* watch.png */,
 				8F07727D1DC2FDEF0061A640 /* LaunchScreen.storyboard */,
 				8F0772801DC2FDEF0061A640 /* Info.plist */,
 			);
 			path = niftyFlatironWeather;
+			sourceTree = "<group>";
+		};
+		F92FE626A8D034653CDFE2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC39AC037199EC96D70586C1 /* Pods_niftyFlatironWeather.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0772831DC2FDEF0061A640 /* Build configuration list for PBXNativeTarget "niftyFlatironWeather" */;
 			buildPhases = (
+				C13903551BACA5064E2008B6 /* [CP] Check Pods Manifest.lock */,
 				8F07726D1DC2FDEF0061A640 /* Sources */,
 				8F07726E1DC2FDEF0061A640 /* Frameworks */,
 				8F07726F1DC2FDEF0061A640 /* Resources */,
+				7F09E50CC7A9BF84CD62C196 /* [CP] Embed Pods Frameworks */,
+				EFC40F4FB3D1BE800E96396F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +200,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4594B13F1DC50397005092EF /* calendarIconSmall.png in Resources */,
 				8F07727F1DC2FDEF0061A640 /* LaunchScreen.storyboard in Resources */,
+				4594B14C1DC54752005092EF /* hourglass.png in Resources */,
+				4594B14E1DC5478B005092EF /* hourglass.png in Resources */,
 				8F07727C1DC2FDEF0061A640 /* Assets.xcassets in Resources */,
 				8F07727A1DC2FDEF0061A640 /* Main.storyboard in Resources */,
+				4594B1411DC503A0005092EF /* watch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F09E50CC7A9BF84CD62C196 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-niftyFlatironWeather/Pods-niftyFlatironWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13903551BACA5064E2008B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC40F4FB3D1BE800E96396F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-niftyFlatironWeather/Pods-niftyFlatironWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F07726D1DC2FDEF0061A640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4594B1481DC545DD005092EF /* CurrentTab_VC.swift in Sources */,
+				45F4131D1DC7C59000C76862 /* Secrets.swift in Sources */,
 				8F0772771DC2FDEF0061A640 /* ViewController.swift in Sources */,
+				45F819421DC3F16600BB4F98 /* DataStore.swift in Sources */,
 				8F0772751DC2FDEF0061A640 /* AppDelegate.swift in Sources */,
+				01D6B7F01DC39E18006E7217 /* APIClient.swift in Sources */,
+				4594B12B1DC4FC89005092EF /* DailyTabBar_VC.swift in Sources */,
+				01D6B7F21DC39E22006E7217 /* Forecast.swift in Sources */,
+				4594B12D1DC4FCD3005092EF /* HourlyTab_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +394,7 @@
 		};
 		8F0772841DC2FDEF0061A640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01ED948143ED4DAFD6C0BC2 /* Pods-niftyFlatironWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -272,6 +408,7 @@
 		};
 		8F0772851DC2FDEF0061A640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD32A37545EE268E354E597 /* Pods-niftyFlatironWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -302,6 +439,7 @@
 				8F0772851DC2FDEF0061A640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
